@@ -1,10 +1,8 @@
-# emoti
+# Welcome to emoti app 👋
 
-# Welcome to your Expo app 👋
+Emoti is your ultimate emoji dictionary, helping you decode meanings or find the perfect emoji. Explore over 3,000 emojis with detailed explanations, cultural contexts, and usage examples. Search by emoji or keyword, browse categories and discover trends. Emoti ensures you understand the nuances of emoji communication with ease.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
-
-## Get started
+# Ignore the following
 
 1. Install dependencies
 
