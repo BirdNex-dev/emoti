@@ -1,4 +1,4 @@
-# Welcome to emoti app 👋
+# Welcome to Emoti app 👋
 
 Emoti is your ultimate emoji dictionary, helping you decode meanings or find the perfect emoji. Explore over 3,000 emojis with detailed explanations, cultural contexts, and usage examples. Search by emoji or keyword, browse categories and discover trends. Emoti ensures you understand the nuances of emoji communication with ease.
 
