@@ -9,7 +9,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Hello World! i love dogs.</Text>
+      <Text>Emoti is your ultimate emoji dictionary</Text>
     </View>
   );
 }
