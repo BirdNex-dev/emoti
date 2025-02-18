@@ -1,51 +1,117 @@
-# Welcome to emoti app 👋
+# 👋 Welcome to Emoti App
 
-Emoti is your ultimate emoji dictionary, helping you decode meanings or find the perfect emoji. Explore over 3,000 emojis with detailed explanations, cultural contexts, and usage examples. Search by emoji or keyword, browse categories and discover trends. Emoti ensures you understand the nuances of emoji communication with ease.
+Emoti is your ultimate emoji dictionary, helping you decode meanings or find the perfect emoji. Explore over 3,000 emojis with detailed explanations, cultural contexts, and usage examples. Search by emoji or keyword, browse categories, and discover trends. Emoti ensures you understand the nuances of emoji communication with ease.
 
-# Ignore the following
+## 🚀 How to Start the App
 
-1. Install dependencies
-
+1. Install dependencies:
    ```bash
    npm install
    ```
-
-2. Start the app
-
+2. Start the app:
    ```bash
-    npx expo start
+   npx expo start
    ```
+3. When prompted, select the **iOS** option to run the app in the iOS simulator.
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+# 📌 Emoti Collaboration Guide
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🚨 Important Notes (Please Read First)
+- **Always push to `test` first.**
+- **Do not push directly to `main` unless the changes are thoroughly reviewed and tested.**
+- **Make sure to sync with `test` before starting new work, especially if others are working on the repo.**
+- **Push changes to your own feature branch (e.g., `feature-search-branch`) first, then create a pull request to merge it into `test`.**
 
-## Get a fresh project
+### 📖 Explanation:
+- **Feature Branch (`feature-search-branch`)**: This is where you make changes.
+- **Test Branch (`test`)**: This is the testing ground for all changes before merging into `main`.
+- **Main Branch (`main`)**: Only stable and fully reviewed code should be merged here.
 
-When you're ready, run:
+---
 
+## 🚀 Getting Started
+
+### **Clone the Repository**
+To begin, clone the repository to your local machine:
 ```bash
-npm run reset-project
+git clone https://github.com/BirdNex-dev/emoti.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### **Set Upstream Remote (For Forked Repos Only)**
+> _Ignore this step if you cloned directly from the original repository._
+```bash
+git remote add upstream https://github.com/BirdNex-dev/emoti.git
+```
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## 🔀 Creating a New Branch
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+1. Switch to the test branch:
+```bash
+git checkout test
+```
+2. Pull the latest changes to ensure it's up to date:
+```bash
+git pull origin test
+```
+3. Create a new feature branch:
+```bash
+git checkout -b feature-search-branch
+```
 
-## Join the community
+> _Note: Replace `feature-search-branch` with a meaningful name related to your feature._
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## ✏️ Making Changes
+
+1. Modify, add, or delete files as needed.
+2. Stage the changes:
+```bash
+git add .
+```
+3. Commit with a clear message:
+```bash
+git commit -m "Add comment here"
+```
+
+---
+
+## 📤 Pushing Your Changes
+
+Push your feature branch to GitHub:
+```bash
+git push origin feature-search-branch
+```
+
+---
+
+## 🔃 Creating a Pull Request (PR)
+
+1. **Go to GitHub** and navigate to your repository: **BirdNex Dev - Emoti Repo**
+2. Click on the **Pull requests** tab.
+3. Click **New Pull Request**.
+4. Set the branches:
+   - **Base branch**: `test`
+   - **Compare branch**: `feature-search-branch`
+5. **Review the changes** before proceeding.
+6. **Add a title and description**:
+   - Example title: `"Add feature-search-branch"`
+   - Description: Briefly describe your changes and purpose.
+7. Click **Create pull request**.
+8. **Assign reviewers** for approval.
+
+
+---
+
+## 🎯 Additional Notes
+- Ensure your branch is always up-to-date with `test` before creating a PR.
+- Provide meaningful commit messages.
+- Review all changes carefully before submitting a PR.
+- Assign reviewers and request feedback.
+
+Thank you for contributing to **Emoti**! 🚀
 
