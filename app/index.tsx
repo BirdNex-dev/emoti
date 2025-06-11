@@ -6,7 +6,7 @@ export default function Index() {
       style={{
         flex: 1,
         justifyContent: "center",
-        alignItems "center",
+        alignItems:: "center",
       }}
     >
       <Text>Emoti is your ultimate emoji dictionary</Text>
