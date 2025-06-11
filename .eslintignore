@@ -1,0 +1,6 @@
+node_modules
+dist
+build
+app-example/scripts
+expo-env.d.ts
+
